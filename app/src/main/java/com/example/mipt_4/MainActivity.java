@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         sharedPreferences = this.getSharedPreferences("com.example.mipt_4", Context.MODE_PRIVATE);
 
         notesListView = findViewById(R.id.notes_ListView);
+        //
 
         notes = new ArrayList<>();
 
